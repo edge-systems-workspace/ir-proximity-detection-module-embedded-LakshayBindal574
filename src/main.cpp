@@ -12,6 +12,9 @@ void loop() {
 
   if (irValue == LOW) {
     Serial.println("Object Detected");
+  } else {
+    Serial.println("No Object");
   }
+
   delay(200);
 }
